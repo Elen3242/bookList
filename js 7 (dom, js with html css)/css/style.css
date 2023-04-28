@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+#wrapper {
+  border: 2px solid gray;
+  margin: 0 350px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px gray;
+}
+#wrapper #page-banner {
+  background-color: lightgray;
+  padding: 30px;
+}
+#wrapper h1 {
+  text-align: center;
+  margin: 10px;
+}
+#wrapper p {
+  text-align: center;
+}
+#wrapper form {
+  text-align: center;
+}
+#wrapper form input {
+  margin-top: 10px;
+  padding: 6px;
+  width: 30%;
+}
+#book-list {
+  margin: 30px;
+}
+#book-list li {
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 20px;
+  border-left: 5px solid lightgray;
+  margin: 20px 8px;
+}
+#book-list li:hover {
+  border-left: 5px solid black;
+  cursor: pointer;
+}
+#book-list li .delete {
+  float: right;
+  background-color: black;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+#book-list li .delete:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+#book-list h2 {
+  margin-bottom: 20px;
+}
+#add-book {
+  margin-left: 300px;
+}
+#add-book .text_cont {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#add-book .text_cont input {
+  padding: 10px;
+}
+#add-book .text_cont button {
+  padding: 0 30px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  transition: 6s;
+}
+#add-book .text_cont button:hover {
+  color: green;
+}
